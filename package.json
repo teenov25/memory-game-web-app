@@ -1,0 +1,19 @@
+{
+  "name": "tm-novuka-222-memory-game-in-vanilla-js-javascript",
+  "version": "1.0.0",
+  "description": "Memory game web app (222) For raw project instructions see: http://syllabus.africacode.net/projects/memory-game/part-1/",
+  "main": "./src/memory_game.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "jsdom": "^23.2.0",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

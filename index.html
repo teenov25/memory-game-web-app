@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="column-container">
+      <div id="timer" class="timer"></div>
+      <p id="moveCount"></p>
+      <label for="gridSize">Grid Size:</label>
+      <select id="gridSize">
+        <option value="2x2">2x2</option>
+        <option value="3x2">3x2</option>
+        <option value="3x4">3x4</option>
+      </select>
+    </div>
+    <button id="resetButton">Restart Game</button>
+  </div>
+  <div class="game-container">
+    <section class="memory-game">
+      <dialog id="winningDialog">
+        <h2>Congratulations!</h2>
+        <p></p>
+        <button id="closeButton">Close</button>
+      </dialog>
+    </section>
+  </div>
+  <script src="./dist/bundle.js"></script>
+</body>
+</html>
